@@ -30,12 +30,10 @@
 
 <!-- Stylesheets -->
 <link rel="stylesheet" href="nextphoto.css" type="text/css" />
-    
+
 <meta http-equiv="x-dns-prefetch-control" content="off"/>
 
 <!-- Photo slideshow -->    
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script type="text/javascript" src="https://ikoryakovskiy.github.io/ikoryakovskiy.github.io/galleria/galleria-1.2.7.min.js"></script>
 <script src="test.js"></script>
 <script src="galleria/test2.js"></script>
 
@@ -95,18 +93,15 @@ src="2011_china/market_horns.jpg"></a>
 
 </div>
 
+<!-- load jQuery -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<!-- load Galleria -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.3/galleria.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.3/themes/classic/galleria.classic.min.js"></script>
 <script>
-    // Run Galleria slideshow
-    Galleria.loadTheme('https://ikoryakovskiy.github.io/ikoryakovskiy.github.io/galleria/themes/classic/galleria.classic.min.js');
-    Galleria.run('#galleria');
-       
-    Galleria.configure({
-    transition: 'fade',
-    autoplay: 3000,
-    height: 570,
-    width:  900,
-    maxScaleRatio: 1,
-    swipe: true
+    $(function() {
+        Galleria.run('#galleria');
     });
 </script>
 
