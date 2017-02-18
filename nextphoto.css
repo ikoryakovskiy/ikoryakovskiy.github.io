@@ -1,0 +1,155 @@
+    
+    body{
+	margin:0px;
+	padding:40px;	
+	background-image:url('http://dl.dropbox.com/u/72294803/Nextphoto/html/img/bg.png');
+	font-family: 'Shanti', serif;
+	font-weight: normal;
+	line-height:18px;
+	color:#000000;
+	}
+    
+    a.menu{
+	color:#222222; 
+	font-size:15px;
+	}
+    
+    a.menu:hover{
+	text-decoration:none;
+	color:#da1111;
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	-webkit-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+	}
+
+    a.link{
+	text-decoration:none;
+	color:#222222; 
+	font-size:15px;
+	}
+
+    a.link:hover{
+	text-decoration:none;
+	color:#da1111; 
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	-webkit-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+	}
+
+     div.transbox {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.6);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000, endColorstr=#4C000000)";
+	}
+
+    #container{
+	width:900px;
+	margin:auto;
+	padding:20px 20px 0px 20px;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.7);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+	}
+
+    #name{
+	font-size:25px;
+	margin:0px 0px;
+	padding:0px 0px 3px 0px;
+	}
+
+    #body-description{
+	width:900;
+	max-width:900px;
+	margin:auto;
+	background:#ffffff;
+	margin:5px 0px 5px 0px;
+	padding:20px 20px 20px 20px;
+	font-size:14px;
+	}
+
+    #body-description h1{
+	color:#000000;
+	font-weight:bold; 
+	font-size:16px;
+	margin:0px 0px 0px 0px;
+	}
+   
+     td.project-list{
+	vertical-align:top;
+	}
+
+     #image-background{
+	float:right;
+	position: absolute;
+	padding:0px 0px 0px 250px;
+	}
+
+     div.projects-foreground{
+	height:400px;
+	}
+
+    #pages{
+	float:left;
+	position: relative;
+	margin:5px 0px;
+	width:100%;
+	border-top:0px;
+	border-bottom:0px;
+	padding:0px;
+	}
+    
+    #pages td{
+	width: 100%;
+	font-weight:normal;
+	}
+ 
+    #pages a{
+	padding:0px 20px;
+	text-decoration:none;
+	text-align:left;
+	display:block; 
+	}
+	
+    #galleriffic-body {
+	align: center;
+	}
+	
+    #contact-form {
+	align: left; 
+	background-color:#ffffff;
+	padding:30px 10px 100px 20px;
+	font-size:14px;
+    }
+
+    .horline{
+	border-top:1px solid #ec1111;
+	}
+
+    #footer{
+	font-size:11px;
+	margin-top:50px;
+	padding:5px 0px;
+	text-align:center;
+	border-top:1px solid #ec1111;
+	}
+    
+    .clear{ clear:both; }
+    
+    .tab { 
+        text-indent: 15pt; 
+	margin: 3px 0px 3px 0px;
+       }
